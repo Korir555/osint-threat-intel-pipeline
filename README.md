@@ -50,28 +50,28 @@ Built to demonstrate:
 
 ```
 osint-threat-intel-pipeline/
-├── backend/
-│   ├── threat_intel.py           # Main engine (500+ LOC)
-│   ├── requirements.txt
-│   └── models/
-│       ├── IntelligenceTarget
-│       ├── ThreatFinding
-│       ├── ThreatIndicator
-│       └── IntelligenceReport
-├── frontend/
-│   ├── App.jsx
-│   ├── components/
-│   │   ├── TargetScanner.jsx      # Initiate scans
-│   │   ├── TargetResults.jsx      # View findings
-│   │   ├── TargetHistory.jsx      # Scan history
-│   │   ├── IndicatorViewer.jsx    # IOC database
-│   │   └── MispExporter.jsx       # Export intelligence
-│   ├── App.css
-│   └── main.jsx
-└── docs/
-    ├── API.md                     # REST endpoints
-    ├── SETUP.md                   # Deployment
-    └── TECHNIQUES.md              # OSINT techniques
+ backend/
+    threat_intel.py           # Main engine (500+ LOC)
+    requirements.txt
+    models/
+        IntelligenceTarget
+        ThreatFinding
+        ThreatIndicator
+        IntelligenceReport
+ frontend/
+    App.jsx
+    components/
+       TargetScanner.jsx      # Initiate scans
+       TargetResults.jsx      # View findings
+       TargetHistory.jsx      # Scan history
+       IndicatorViewer.jsx    # IOC database
+       MispExporter.jsx       # Export intelligence
+    App.css
+    main.jsx
+ docs/
+     API.md                     # REST endpoints
+     SETUP.md                   # Deployment
+     TECHNIQUES.md              # OSINT techniques
 ```
 
 ## API Endpoints
@@ -279,11 +279,11 @@ Automated OSINT reconnaissance and threat intelligence pipeline. Performs DNS en
 
 ## Technical Skills Demonstrated
 
-- ✅ **Backend:** Flask, DNS resolution, socket programming, web scraping
-- ✅ **Frontend:** React, data visualization, report generation
-- ✅ **Security Research:** OSINT methodology, threat analysis, IOC extraction
-- ✅ **Intelligence Standards:** MISP format, threat indicator classification
-- ✅ **APIs:** VirusTotal, certificate transparency, WHOIS integration
+-  **Backend:** Flask, DNS resolution, socket programming, web scraping
+-  **Frontend:** React, data visualization, report generation
+-  **Security Research:** OSINT methodology, threat analysis, IOC extraction
+-  **Intelligence Standards:** MISP format, threat indicator classification
+-  **APIs:** VirusTotal, certificate transparency, WHOIS integration
 
 ## Next Steps / Extensions
 
